@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myntra -Your Favourite Shopping Destination</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="main">
+        <div class="w-full h-auto" id="landing-page">
+            <nav class="flex px-12 py-5 w-full justify-between shadow-sm">
+                <div class="flex items-center justify-between gap-6">
+
+                    <a href=""><img src="./images/myntra_logo.webp" alt="" class="w-16"></a>
+                    <ul
+                        class="flex items-center justify-evenly w-11/12 gap-8 uppercase text-sm font-sans font-semibold">
+                        <li><a href="">men</a></li>
+                        <li><a href="">women</a></li>
+                        <li><a href="">kids</a></li>
+                        <li><a href="">home & living</a></li>
+                        <li><a href="">beauty</a></li>
+                        <li><a href="">studio</a></li>
+                    </ul>
+                </div>
+                <div class="flex items-center justify-between basis-2/5 text-center 
+                gap-3">
+                    <form action="" class="flex w-perfect text-center bg-gray-200 px-4 rounded-3xl">
+                        <button class="" type="submit"><svg width="17" height="17" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24">
+                                <path
+                                    d="M18.031 16.6168L22.3137 20.8995L20.8995 22.3137L16.6168 18.031C15.0769 19.263 13.124 20 11 20C6.032 20 2 15.968 2 11C2 6.032 6.032 2 11 2C15.968 2 20 6.032 20 11C20 13.124 19.263 15.0769 18.031 16.6168ZM16.0247 15.8748C17.2475 14.6146 18 12.8956 18 11C18 7.1325 14.8675 4 11 4C7.1325 4 4 7.1325 4 11C4 14.8675 7.1325 18 11 18C12.8956 18 14.6146 17.2475 15.8748 16.0247L16.0247 15.8748Z">
+                                </path>
+                            </svg></button>
+                        <input type="search"
+                            class=" w-full h-full px-4 text-gray-900 py-2 bg-transparent font-sans text-sm"
+                            placeholder="Search for products, brands and more">
+                    </form>
+                    <div class="flex items-center text-sm justify-between gap-4 px-4">
+                        <button class="flex items-center flex-col text-center">
+                            <svg class="w-5 text-grey-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path
+                                    d="M4 22C4 17.5817 7.58172 14 12 14C16.4183 14 20 17.5817 20 22H18C18 18.6863 15.3137 16 12 16C8.68629 16 6 18.6863 6 22H4ZM12 13C8.685 13 6 10.315 6 7C6 3.685 8.685 1 12 1C15.315 1 18 3.685 18 7C18 10.315 15.315 13 12 13ZM12 11C14.21 11 16 9.21 16 7C16 4.79 14.21 3 12 3C9.79 3 8 4.79 8 7C8 9.21 9.79 11 12 11Z">
+                                </path>
+                            </svg>
+                            <p>Profile</p>
+                        </button>
+                        <button class="flex items-center flex-col text-center">
+                            <svg class="w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path
+                                    d="M16.5 3C19.5376 3 22 5.5 22 9C22 16 14.5 20 12 21.5C9.5 20 2 16 2 9C2 5.5 4.5 3 7.5 3C9.35997 3 11 4 12 5C13 4 14.64 3 16.5 3ZM12.9339 18.6038C13.8155 18.0485 14.61 17.4955 15.3549 16.9029C18.3337 14.533 20 11.9435 20 9C20 6.64076 18.463 5 16.5 5C15.4241 5 14.2593 5.56911 13.4142 6.41421L12 7.82843L10.5858 6.41421C9.74068 5.56911 8.5759 5 7.5 5C5.55906 5 4 6.6565 4 9C4 11.9435 5.66627 14.533 8.64514 16.9029C9.39 17.4955 10.1845 18.0485 11.0661 18.6038C11.3646 18.7919 11.6611 18.9729 12 19.1752C12.3389 18.9729 12.6354 18.7919 12.9339 18.6038Z">
+                                </path>
+                            </svg>
+                            <p>Wishlist</p>
+                        </button>
+                        <a href="./cart.html" class="flex items-center flex-col text-center">
+                            <svg class="w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path
+                                    d="M7.00488 7.99951V5.99951C7.00488 3.23809 9.24346 0.999512 12.0049 0.999512C14.7663 0.999512 17.0049 3.23809 17.0049 5.99951V7.99951H20.0049C20.5572 7.99951 21.0049 8.44723 21.0049 8.99951V20.9995C21.0049 21.5518 20.5572 21.9995 20.0049 21.9995H4.00488C3.4526 21.9995 3.00488 21.5518 3.00488 20.9995V8.99951C3.00488 8.44723 3.4526 7.99951 4.00488 7.99951H7.00488ZM7.00488 9.99951H5.00488V19.9995H19.0049V9.99951H17.0049V11.9995H15.0049V9.99951H9.00488V11.9995H7.00488V9.99951ZM9.00488 7.99951H15.0049V5.99951C15.0049 4.34266 13.6617 2.99951 12.0049 2.99951C10.348 2.99951 9.00488 4.34266 9.00488 5.99951V7.99951Z">
+                                </path>
+                            </svg>
+                            <p>Bag</p>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+
+
+            <img class="mt-8" src="./images/banner.jpg" alt="banner">
+        </div>
+
+
+
+        <div class="px-14" id="Brandcategories">
+            <h1 class="mt-24 mx-8 tracking-widest text-3xl uppercase font-sans font-semibold text-gray-800">biggest deals on top brands</h1>
+
+            <div class="flex flex-wrap items-center justify-evenly my-16" id="brands">
+                <div class="bg-gray-100 w-72 min-h-fit text-center flex flex-col items-center justify-evenly py-3 gap-16" id="first">
+                    <img class="w-10/12 rounded-md cursor-pointer" src="./images/offers/1.png" alt="">
+                    <img class="w-10/12 rounded-md cursor-pointer" src="./images/offers/5.png" alt="">
+                    <img class="w-10/12 rounded-md cursor-pointer" src="./images/offers/9.png" alt="">
+
+                </div>
+
+                <div class="bg-gray-100 w-72 min-h-fit flex flex-col items-center justify-evenly py-3 gap-16" id="second">
+                    <img class="w-10/12 rounded-md cursor-pointer" src="./images/offers/2.png" alt="">
+                    <img class="w-10/12 rounded-md cursor-pointer" src="./images/offers/6.png" alt="">
+                    <img class="w-10/12 rounded-md cursor-pointer" src="./images/offers/10.png" alt="">
+                </div>
+                <div class="bg-gray-100 w-72 min-h-fit flex flex-col items-center justify-evenly py-3 gap-16  " id="third">
+                    <img class="w-10/12 rounded-md cursor-pointer" src="./images/offers/3.png" alt="">
+                    <img class="w-10/12 rounded-md cursor-pointer" src="./images/offers/7.png" alt="">
+                    <img class="w-10/12 rounded-md cursor-pointer" src="./images/offers/11.png" alt="">
+
+                </div>
+                <div class="bg-gray-100 w-72 min-h-fit flex flex-col items-center justify-evenly py-3 gap-16" id="third">
+                    <img class="w-10/12 rounded-md cursor-pointer" src="./images/offers/4.png" alt="">
+                    <img class="w-10/12 rounded-md cursor-pointer" src="./images/offers/8.png" alt="">
+                    <img class="w-10/12 rounded-md cursor-pointer" src="./images/offers/12.png" alt="">
+
+                </div>
+            </div>
+        </div>
+
+         <div class="w-full" id="shopByCategory">
+            <div id="heading">
+                <h1 class="mt-24 mx-8 tracking-widest text-3xl uppercase font-sans font-semibold text-gray-800">Shop By Category</h1>
+            </div>
+            <div class="flex flex-wrap items-center justify-center px-8 gap-3 my-16" id="content">
+
+            </div>
+         </div>
+         <footer class="w-full bg-gray-50 px-4 sm:px-28 flex items-baseline flex-wrap">
+            <div class="flex flex-row sm:flex-col justify-center items-start sm:justify-evenly p-2 sm:p-8 gap-5 w-full sm:w-1/5">
+                <div class="w-2/4 sm:w-auto flex flex-col sm:items-start items-center">
+
+                    <h1 class="text-sm font-sans uppercase text-black font-semibold">online Shopping</h1>
+                    <ul class="flex capitalize flex-col justify-evenly mt-2 items-center sm:items-start text-gray-800 text-sm">
+                        <li><a href="">men</a></li>
+                        <li><a href="">women</a></li>
+                        <li><a href="">kids</a></li>
+                        <li><a href="">home & living</a></li>
+                        <li><a href="">beauty</a></li>
+                        <li><a href="">gift cards</a></li>
+                        <li><a href="">myntra insider</a></li>
+                    </ul>
+                </div>
+                <div class="w-2/4 sm:w-auto flex flex-col sm:items-start items-center">
+
+                    <h1 class="text-sm font-sans uppercase text-black font-semibold">useful links</h1>
+                    <ul class="flex capitalize flex-col justify-evenly mt-2 items-center sm:items-start text-gray-800 text-sm">
+                        <li><a href="">blog</a></li>
+                        <li><a href="">careers</a></li>
+                        <li><a href="">site map</a></li>
+                        <li><a href="">corporate information</a></li>
+                        <li><a href="">whitehat</a></li>
+                        <li><a href="">cleartrip</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="flex flex-col items-center sm:items-start justify-evenly p-2 sm:p-8 w-2/4 sm:gap-5 sm:w-1/5">
+                <h1 class="text-sm font-sans uppercase text-black font-semibold">customer policies</h1>
+                <ul class="flex capitalize flex-col justify-evenly items-center sm:items-start text-gray-800 text-sm">
+                    <li><a href="">contact us</a></li>
+                    <li><a href="">faq</a></li>
+                    <li><a href="">t & c</a></li>
+                    <li><a href="">terms of use</a></li>
+                    <li><a href="">track orders</a></li>
+                    <li><a href="">shipping</a></li>
+                    <li><a href="">cancellation</a></li>
+                    <li><a href="">return</a></li>
+                    <li><a href="">privacy policy</a></li>
+                    <li><a href="">grievance officer</a></li>
+                </ul>
+            </div>
+
+            <div class="flex flex-col items-start justify-evenly sm:gap-5 w-2/4 sm:w-1/5" id="userExperience">
+                <p class="text-xs font-sans uppercase text-black font-semibold">experience myntra app on mobile</p>
+                <div class="flex items-center justify-evenly w-full my-3 sm:my-0 sm:gap-4">
+
+                    <a href="https://play.google.com/store/apps/details?id=com.myntra.android&pli=1"><img class="w-11/12 sm:w-72"
+                            src="./images/downApp/gogleplay.png" alt=""></a>
+                    <a href="https://apps.apple.com/in/app/myntra-fashion-shopping-app/id907394059"><img class="w-11/12 sm:w-64"
+                            src="./images/downApp/appStore.png" alt=""></a>
+                </div>
+                <p class="text-xs font-sans uppercase text-black font-semibold">keep in touch</p>
+                <div class="flex items-center gap-3">
+
+                    <a class="w-6" href="https:/facebook.com/myntra"><svg xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24">
+                            <path
+                                d="M12.001 2C6.47813 2 2.00098 6.47715 2.00098 12C2.00098 16.9913 5.65783 21.1283 10.4385 21.8785V14.8906H7.89941V12H10.4385V9.79688C10.4385 7.29063 11.9314 5.90625 14.2156 5.90625C15.3097 5.90625 16.4541 6.10156 16.4541 6.10156V8.5625H15.1931C13.9509 8.5625 13.5635 9.33334 13.5635 10.1242V12H16.3369L15.8936 14.8906H13.5635V21.8785C18.3441 21.1283 22.001 16.9913 22.001 12C22.001 6.47715 17.5238 2 12.001 2Z">
+                            </path>
+                        </svg></a>
+                    <a href="https:/twitter.com/myntra" class="w-5">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path
+                                d="M18.2048 2.25H21.5128L14.2858 10.51L22.7878 21.75H16.1308L10.9168 14.933L4.95084 21.75H1.64084L9.37084 12.915L1.21484 2.25H8.04084L12.7538 8.481L18.2048 2.25ZM17.0438 19.77H18.8768L7.04484 4.126H5.07784L17.0438 19.77Z">
+                            </path>
+                        </svg>
+                    </a>
+
+                    <a href="https:/youtube.com/myntra" class="w-7">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path fill="#000" d="M21.8,8.2c0,0-0.2-1.6-0.8-2.3c-0.8-1-1.7-1-2.1-1.1C16.2,4.6,12,4.6,12,4.6h0c0,0-4.2,0-7,0.2
+                                c-0.4,0.1-1.3,0.1-2.1,1.1C2.4,6.6,2.2,8.2,2.2,8.2S2,9.9,2,11.6v1.8c0,1.7,0.2,3.4,0.2,3.4s0.2,1.6,0.8,2.3c0.8,1,1.9,1,2.4,1.1
+                                c1.7,0.1,7.2,0.2,7.2,0.2s4.2,0,7-0.2c0.4-0.1,1.3-0.1,2.1-1.1c0.6-0.7,0.8-2.3,0.8-2.3s0.2-1.7,0.2-3.4v-1.8
+                                C22,9.9,21.8,8.2,21.8,8.2z" />
+                            <polygon fill="#FFFFFF" points="9.9,15.5 9.9,8.5 15.9,12 " />
+                        </svg>
+                    </a>
+                    <a class="w-6" href="https:/instagram.com/myntra">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path
+                                d="M13.0281 2.00098C14.1535 2.00284 14.7238 2.00879 15.2166 2.02346L15.4107 2.02981C15.6349 2.03778 15.8561 2.04778 16.1228 2.06028C17.1869 2.10944 17.9128 2.27778 18.5503 2.52528C19.2094 2.77944 19.7661 3.12278 20.3219 3.67861C20.8769 4.23444 21.2203 4.79278 21.4753 5.45028C21.7219 6.08694 21.8903 6.81361 21.9403 7.87778C21.9522 8.14444 21.9618 8.36564 21.9697 8.58989L21.976 8.78397C21.9906 9.27672 21.9973 9.8471 21.9994 10.9725L22.0002 11.7182C22.0003 11.8093 22.0003 11.9033 22.0003 12.0003L22.0002 12.2824L21.9996 13.0281C21.9977 14.1535 21.9918 14.7238 21.9771 15.2166L21.9707 15.4107C21.9628 15.6349 21.9528 15.8561 21.9403 16.1228C21.8911 17.1869 21.7219 17.9128 21.4753 18.5503C21.2211 19.2094 20.8769 19.7661 20.3219 20.3219C19.7661 20.8769 19.2069 21.2203 18.5503 21.4753C17.9128 21.7219 17.1869 21.8903 16.1228 21.9403C15.8561 21.9522 15.6349 21.9618 15.4107 21.9697L15.2166 21.976C14.7238 21.9906 14.1535 21.9973 13.0281 21.9994L12.2824 22.0002C12.1913 22.0003 12.0973 22.0003 12.0003 22.0003L11.7182 22.0002L10.9725 21.9996C9.8471 21.9977 9.27672 21.9918 8.78397 21.9771L8.58989 21.9707C8.36564 21.9628 8.14444 21.9528 7.87778 21.9403C6.81361 21.8911 6.08861 21.7219 5.45028 21.4753C4.79194 21.2211 4.23444 20.8769 3.67861 20.3219C3.12278 19.7661 2.78028 19.2069 2.52528 18.5503C2.27778 17.9128 2.11028 17.1869 2.06028 16.1228C2.0484 15.8561 2.03871 15.6349 2.03086 15.4107L2.02457 15.2166C2.00994 14.7238 2.00327 14.1535 2.00111 13.0281L2.00098 10.9725C2.00284 9.8471 2.00879 9.27672 2.02346 8.78397L2.02981 8.58989C2.03778 8.36564 2.04778 8.14444 2.06028 7.87778C2.10944 6.81278 2.27778 6.08778 2.52528 5.45028C2.77944 4.79194 3.12278 4.23444 3.67861 3.67861C4.23444 3.12278 4.79278 2.78028 5.45028 2.52528C6.08778 2.27778 6.81278 2.11028 7.87778 2.06028C8.14444 2.0484 8.36564 2.03871 8.58989 2.03086L8.78397 2.02457C9.27672 2.00994 9.8471 2.00327 10.9725 2.00111L13.0281 2.00098ZM12.0003 7.00028C9.23738 7.00028 7.00028 9.23981 7.00028 12.0003C7.00028 14.7632 9.23981 17.0003 12.0003 17.0003C14.7632 17.0003 17.0003 14.7607 17.0003 12.0003C17.0003 9.23738 14.7607 7.00028 12.0003 7.00028ZM12.0003 9.00028C13.6572 9.00028 15.0003 10.3429 15.0003 12.0003C15.0003 13.6572 13.6576 15.0003 12.0003 15.0003C10.3434 15.0003 9.00028 13.6576 9.00028 12.0003C9.00028 10.3434 10.3429 9.00028 12.0003 9.00028ZM17.2503 5.50028C16.561 5.50028 16.0003 6.06018 16.0003 6.74943C16.0003 7.43867 16.5602 7.99944 17.2503 7.99944C17.9395 7.99944 18.5003 7.43954 18.5003 6.74943C18.5003 6.06018 17.9386 5.49941 17.2503 5.50028Z">
+                            </path>
+                        </svg>
+                    </a>
+
+
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
