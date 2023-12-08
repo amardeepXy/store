@@ -135,16 +135,16 @@ function displayProduct(){
 
         items.forEach((elem, index) => {
             productContainer.innerHTML += `
-            <div class="w-60 h-box text-left flex flex-col items-baseline justify-evenly py-5 relative">
-            <img class="w-60" src="${elem.image}" alt="">
-            <div class="absolute left-10 bottom-1/3 bg-gray-300 px-4 py-2 text-xs">
+            <div class="w-36 sm:w-60 gap-2 sm:gap-0 sm:h-box text-left flex flex-col items-baseline justify-evenly py-5 relative">
+            <img class="w-full sm:w-60" src="${elem.image}" alt="">
+            <div class="absolute sm:left-10 bottom-3/5 sm:bottom-1/3 bg-gray-300 px-0.5 sm:px-4 py-0.5 sm:py-2 text-xs">
                 <span
                     class="text-black after:content[''] after:w-px after:h-3/5 after:bg-black after:absolute re;ative"
                     >${elem.rating.stars}⭐ </span> <span class="text-black ml-1"> ${elem.rating.count}K</span>
             </div>
-            <div class="w-full text-gray-950 font-semibold pl-7 text-md">${elem.company}</div>
-            <div class="w-full text-gray-700 font-semibold truncate pl-7 text-sm">${elem.item_name}</div>
-            <div class="w-full text-gray-950 font-semibold pl-7 text-sm"><span>₹ ${elem.current_price}</span> <span class="text-gray-500 line-through">₹ ${elem.original_price}</span>
+            <div class="w-full text-gray-950 font-semibold pl-2 sm:pl-7 text-sm sm:text-md">${elem.company}</div>
+            <div class="w-full text-gray-700 font-semibold truncate pl-2 sm:pl-7 text-sm">${elem.item_name}</div>
+            <div class="w-full text-gray-950 font-semibold pl-2 sm:pl-7 text-xs sm:text-sm"><span>₹ ${elem.current_price}</span> <span class="text-gray-500 line-through">₹ ${elem.original_price}</span>
             (<span class="text-orange-700">${elem.discount_percentage}% off</span>)
             </div>
             <a href="#" class="bg-black text-white w-full text-center py-1 addToBag" id="${elem.id}">Add to Bag</a>

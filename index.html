@@ -9,14 +9,12 @@
 </head>
 
 <body>
-    <div id="main">
+    <div id="main" class="w-full bg-gradient-to-b from-gray-50 to-gray-100 selection:text-white selection:bg-black">
         <div class="w-full h-auto" id="landing-page">
-            <nav class="flex px-12 py-5 w-full justify-between shadow-sm">
-                <div class="flex items-center justify-between gap-6">
-
-                    <a href=""><img src="./images/myntra_logo.webp" alt="" class="w-16"></a>
-                    <ul
-                        class="flex items-center justify-evenly w-11/12 gap-8 uppercase text-sm font-sans font-semibold">
+            <nav class="flex px-4 py-3 sm:gap-0 gap-5 sm:px-10 sm:py-4 w-full justify-between shadow-sm">
+                <div class="flex items-center sm:basis-6/12 justify-start sm:justify-around sm:gap-0">
+                    <a href="./index.html" class="flex relative text-pink-600 font-mono text-2xl sm:text-3xl font-bold uppercase mr-1 sm:mr-5">Store<span class="block w-1.5 sm:w-2 h-1.5 sm:h-2 bg-pink-600 rounded-full absolute bottom-1.5 sm:bottom-2 -right-2 sm:-right-3"></span></a>
+                    <ul class="hidden sm:flex items-center justify-evenly sm:w-10/12 sm:gap-2 text-gray-800 uppercase text-sm font-sans font-semibold">
                         <li><a href="">men</a></li>
                         <li><a href="">women</a></li>
                         <li><a href="">kids</a></li>
@@ -25,95 +23,73 @@
                         <li><a href="">studio</a></li>
                     </ul>
                 </div>
-                <div class="flex items-center justify-between basis-2/5 text-center 
-                gap-3">
-                    <form action="" class="flex w-perfect text-center bg-gray-200 px-4 rounded-3xl">
+                <div class="flex items-center justify-end sm:justify-between sm:flex-none sm:basis-2/5 text-center 
+                sm:gap-3">
+                    <form action="" class="flex hover:basis-full sm:hover:basis-8/12 sm:basis-8/12 text-center bg-gray-200 px-4 transition-all mr-5 sm:mr-0 rounded-full hover:rounded-md sm:rounded-3xl">
                         <button class="" type="submit"><svg width="17" height="17" xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 24 24">
                                 <path
                                     d="M18.031 16.6168L22.3137 20.8995L20.8995 22.3137L16.6168 18.031C15.0769 19.263 13.124 20 11 20C6.032 20 2 15.968 2 11C2 6.032 6.032 2 11 2C15.968 2 20 6.032 20 11C20 13.124 19.263 15.0769 18.031 16.6168ZM16.0247 15.8748C17.2475 14.6146 18 12.8956 18 11C18 7.1325 14.8675 4 11 4C7.1325 4 4 7.1325 4 11C4 14.8675 7.1325 18 11 18C12.8956 18 14.6146 17.2475 15.8748 16.0247L16.0247 15.8748Z">
                                 </path>
                             </svg></button>
-                        <input type="search"
-                            class=" w-full h-full px-4 text-gray-900 py-2 bg-transparent font-sans text-sm"
+                        <input type="search" class="w-full h-full px-4 text-gray-900 py-2 bg-transparent text-ellipsis font-sans text-sm focus:outline-none"
                             placeholder="Search for products, brands and more">
                     </form>
-                    <div class="flex items-center text-sm justify-between gap-4 px-4">
+                    <div class="flex items-center text-sm justify-between  gap-2 sm:gap-4 sm:px-4">
                         <button class="flex items-center flex-col text-center">
-                            <svg class="w-5 text-grey-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <svg class="w-4 sm:w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                                 <path
                                     d="M4 22C4 17.5817 7.58172 14 12 14C16.4183 14 20 17.5817 20 22H18C18 18.6863 15.3137 16 12 16C8.68629 16 6 18.6863 6 22H4ZM12 13C8.685 13 6 10.315 6 7C6 3.685 8.685 1 12 1C15.315 1 18 3.685 18 7C18 10.315 15.315 13 12 13ZM12 11C14.21 11 16 9.21 16 7C16 4.79 14.21 3 12 3C9.79 3 8 4.79 8 7C8 9.21 9.79 11 12 11Z">
                                 </path>
                             </svg>
-                            <p>Profile</p>
+                            <p class="hidden sm:block">Profile</p>
                         </button>
                         <button class="flex items-center flex-col text-center">
-                            <svg class="w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <svg class="w-4 sm:w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                                 <path
                                     d="M16.5 3C19.5376 3 22 5.5 22 9C22 16 14.5 20 12 21.5C9.5 20 2 16 2 9C2 5.5 4.5 3 7.5 3C9.35997 3 11 4 12 5C13 4 14.64 3 16.5 3ZM12.9339 18.6038C13.8155 18.0485 14.61 17.4955 15.3549 16.9029C18.3337 14.533 20 11.9435 20 9C20 6.64076 18.463 5 16.5 5C15.4241 5 14.2593 5.56911 13.4142 6.41421L12 7.82843L10.5858 6.41421C9.74068 5.56911 8.5759 5 7.5 5C5.55906 5 4 6.6565 4 9C4 11.9435 5.66627 14.533 8.64514 16.9029C9.39 17.4955 10.1845 18.0485 11.0661 18.6038C11.3646 18.7919 11.6611 18.9729 12 19.1752C12.3389 18.9729 12.6354 18.7919 12.9339 18.6038Z">
                                 </path>
                             </svg>
-                            <p>Wishlist</p>
+                            <p class="hidden sm:block">Wishlist</p>
                         </button>
-                        <a href="./cart.html" class="flex items-center flex-col text-center">
-                            <svg class="w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <a class=" relative flex items-center flex-col text-center" href="./cart.html">
+                            <svg class="w-4 sm:w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                                 <path
                                     d="M7.00488 7.99951V5.99951C7.00488 3.23809 9.24346 0.999512 12.0049 0.999512C14.7663 0.999512 17.0049 3.23809 17.0049 5.99951V7.99951H20.0049C20.5572 7.99951 21.0049 8.44723 21.0049 8.99951V20.9995C21.0049 21.5518 20.5572 21.9995 20.0049 21.9995H4.00488C3.4526 21.9995 3.00488 21.5518 3.00488 20.9995V8.99951C3.00488 8.44723 3.4526 7.99951 4.00488 7.99951H7.00488ZM7.00488 9.99951H5.00488V19.9995H19.0049V9.99951H17.0049V11.9995H15.0049V9.99951H9.00488V11.9995H7.00488V9.99951ZM9.00488 7.99951H15.0049V5.99951C15.0049 4.34266 13.6617 2.99951 12.0049 2.99951C10.348 2.99951 9.00488 4.34266 9.00488 5.99951V7.99951Z">
                                 </path>
                             </svg>
-                            <p>Bag</p>
+                            <p class="hidden sm:block">Bag</p>
+                            <span class="absolute -right-1 sm:-top-2 -top-3 text-red-600 font-bold text-md" id="itemCount">0</span>
                         </a>
                     </div>
                 </div>
             </nav>
 
 
-            <img class="mt-8" src="./images/banner.jpg" alt="banner">
+            <img class="mt-8 sm:w-auto " src="./images/banner.jpg" alt="banner">
         </div>
 
+<a href="./shopping.html" class="w-11/12 sm:w-9/12 rounded-sm py-2 mx-auto mt-20 sm:mt-44 text-center text-white bg-pink-600 block">Go To Shop</a>
 
+        <div class="px-2 mt-11 sm:mt-0 sm:px-14" id="Brandcategories">
 
-        <div class="px-14" id="Brandcategories">
-            <h1 class="mt-24 mx-8 tracking-widest text-3xl uppercase font-sans font-semibold text-gray-800">biggest deals on top brands</h1>
+            <h1 class="mt-0 sm:mt-24 mx-5 sm:mx-11 tracking-widest text-lg sm:text-3xl uppercase font-sans font-semibold text-gray-800">biggest deals on top brands</h1>
 
-            <div class="flex flex-wrap items-center justify-evenly my-16" id="brands">
-                <div class="bg-gray-100 w-72 min-h-fit text-center flex flex-col items-center justify-evenly py-3 gap-16" id="first">
-                    <img class="w-10/12 rounded-md cursor-pointer" src="./images/offers/1.png" alt="">
-                    <img class="w-10/12 rounded-md cursor-pointer" src="./images/offers/5.png" alt="">
-                    <img class="w-10/12 rounded-md cursor-pointer" src="./images/offers/9.png" alt="">
-
-                </div>
-
-                <div class="bg-gray-100 w-72 min-h-fit flex flex-col items-center justify-evenly py-3 gap-16" id="second">
-                    <img class="w-10/12 rounded-md cursor-pointer" src="./images/offers/2.png" alt="">
-                    <img class="w-10/12 rounded-md cursor-pointer" src="./images/offers/6.png" alt="">
-                    <img class="w-10/12 rounded-md cursor-pointer" src="./images/offers/10.png" alt="">
-                </div>
-                <div class="bg-gray-100 w-72 min-h-fit flex flex-col items-center justify-evenly py-3 gap-16  " id="third">
-                    <img class="w-10/12 rounded-md cursor-pointer" src="./images/offers/3.png" alt="">
-                    <img class="w-10/12 rounded-md cursor-pointer" src="./images/offers/7.png" alt="">
-                    <img class="w-10/12 rounded-md cursor-pointer" src="./images/offers/11.png" alt="">
-
-                </div>
-                <div class="bg-gray-100 w-72 min-h-fit flex flex-col items-center justify-evenly py-3 gap-16" id="third">
-                    <img class="w-10/12 rounded-md cursor-pointer" src="./images/offers/4.png" alt="">
-                    <img class="w-10/12 rounded-md cursor-pointer" src="./images/offers/8.png" alt="">
-                    <img class="w-10/12 rounded-md cursor-pointer" src="./images/offers/12.png" alt="">
-
-                </div>
+            <div class="flex flex-wrap items-center justify-evenly my-8 gap-1 sm:gap-5" id="brands">
+              
             </div>
         </div>
 
-         <div class="w-full" id="shopByCategory">
-            <div id="heading">
-                <h1 class="mt-24 mx-8 tracking-widest text-3xl uppercase font-sans font-semibold text-gray-800">Shop By Category</h1>
-            </div>
-            <div class="flex flex-wrap items-center justify-center px-8 gap-3 my-16" id="content">
+         <div class="px-2 mt-16 sm:mt-0 sm:px-14" id="shopByCategory">
+           
+                <h1 class="mt-0 sm:mt-24 mx-5 sm:mx-11 tracking-widest text-lg sm:text-3xl uppercase font-sans font-semibold text-gray-800">Shop By Category</h1>
+           
+            <div class="flex flex-wrap items-center justify-evenly my-2 gap-1 sm:gap-3" id="content">
 
             </div>
          </div>
-         <footer class="w-full bg-gray-50 px-4 sm:px-28 flex items-baseline flex-wrap">
-            <div class="flex flex-row sm:flex-col justify-center items-start sm:justify-evenly p-2 sm:p-8 gap-5 w-full sm:w-1/5">
+         <footer class="w-full my-8 bg-gray-50 px-4 sm:px-28 flex items-baseline flex-wrap">
+            <div class="flex flex-row sm:flex-col justify-center items-start sm:justify-evenly p-2 mb-8 sm:p-8 gap-5 w-full sm:w-1/5  border-gray-500 border-t-2 pt-6">
                 <div class="w-2/4 sm:w-auto flex flex-col sm:items-start items-center">
 
                     <h1 class="text-sm font-sans uppercase text-black font-semibold">online Shopping</h1>
