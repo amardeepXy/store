@@ -1,4 +1,5 @@
 {
+  "homepage": "https://Amardeep-sys.github.io/store",
   "devDependencies": {
     "autoprefixer": "^10.4.16",
     "postcss": "^8.4.32",
@@ -8,7 +9,8 @@
     "vite": "^5.0.6"
   },
   "scripts": {
-    "start" : "vite"
-    
+    "start": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
 }
