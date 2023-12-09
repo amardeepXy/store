@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       width: {
         perfect : '340px',
-        box : "29%"
+        box : "32%"
       },
       height: {
         box : '32rem',
