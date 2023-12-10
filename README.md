@@ -1,3 +1,19 @@
+Previews
+--Landing page--
+![page-1-1](https://github.com/Amardeep-sys/store/assets/139546920/d73ffc27-099a-4a24-955b-450c4fb3221e)
+--Index page with 2nd screen shot--
+
+![page-1-2](https://github.com/Amardeep-sys/store/assets/139546920/0d7ff661-74ae-4c3c-9f66-8b136a81ef1a)
+
+--shopping page--
+![cart](https://github.com/Amardeep-sys/store/assets/139546920/dfc690e3-b7e9-401a-801d-782d8a1ab619)
+
+--cart page--
+![shopping](https://github.com/Amardeep-sys/store/assets/139546920/3b66f5d7-d773-4d8c-9a5f-3bb57df1a82c)
+
+
+
+
 #store
 
 Yo! Check out my E-commerce Website with Tailwind CSS!
